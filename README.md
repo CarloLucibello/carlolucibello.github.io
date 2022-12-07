@@ -1,4 +1,4 @@
-# Code repository for the personal webpage of Carlo Lucibello
+# Code repository for my personal webpage
 
 Written with Franklin.jl.
 
