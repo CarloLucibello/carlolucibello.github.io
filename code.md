@@ -11,13 +11,13 @@ I contribute a lot to the Julia language ecosystem, in particular to Machine Lea
 
 Some of the packages I currently mantain:
 
-- GraphNeuralNetworks.jl
-- Flux.jl
-- Zygote.jl
-- NNLib.jl
-- MLUtils.jl
-- MLDatasets.jl
-- HuggingFaceDatasets.jl
+- [GraphNeuralNetworks.jl](https://github.com/CarloLucibello/GraphNeuralNetworks.jl)
+- [Flux.jl](fluxml.ai/)
+- [Zygote.jl](https://github.com/FluxML/Zygote.jl)
+- [NNLib.jl](https://github.com/FluxML/NNlib.jl)
+- [MLUtils.jl](https://github.com/JuliML/MLUtils.jl)
+- [MLDatasets.jl](https://github.com/JuliaML/MLDatasets.jl)
+- [HuggingFaceDatasets.jl](https://github.com/CarloLucibello/HuggingFaceDatasets.jl)
 
 Some projects that I used to mantain, but I'm not actively contributing to:
 - Graphs.jl

@@ -13,7 +13,7 @@ title = "Home"
 
 ### About
 
-I am an Assistant Professor at [Bocconi University][Bocconi] since 2018.  
+I am an Assistant Professor at [Bocconi University][Bocconi] since 2018, an open source contributor ([machine learning libraries](https://fluxml.ai/) for Julia in particular) machine learning packages and a lindy-hop dancer.
 
 ### Research
 
@@ -22,3 +22,4 @@ I'm currently working on questions which fall at the interface between the stati
 
 
 [Bocconi]: https://www.unibocconi.eu
+[Flux]: https://fluxml.ai/
