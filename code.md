@@ -19,8 +19,9 @@ Some of the packages I currently mantain:
 - [MLDatasets.jl](https://github.com/JuliaML/MLDatasets.jl)
 - [HuggingFaceDatasets.jl](https://github.com/CarloLucibello/HuggingFaceDatasets.jl)
 
-Some projects that I used to mantain, but I'm not actively contributing to:
-- Graphs.jl
-- Erdos.jl
+Some projects that I used to mantain, but not anymore:
+- [Graphs.jl](https://github.com/JuliaGraphs/Graphs.jl)
+- [Erdos.jl](https://github.com/CarloLucibello/Erdos.jl)
 
+<!-- ## Code from papers -->
 
