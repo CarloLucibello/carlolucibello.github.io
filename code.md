@@ -18,6 +18,7 @@ Some of the packages I currently mantain:
 - [MLUtils.jl](https://github.com/JuliML/MLUtils.jl)
 - [MLDatasets.jl](https://github.com/JuliaML/MLDatasets.jl)
 - [HuggingFaceDatasets.jl](https://github.com/CarloLucibello/HuggingFaceDatasets.jl)
+- [PicoSAT.jl](https://github.com/sisl/PicoSAT.jl)
 
 Some projects that I used to mantain, but not anymore:
 - [Graphs.jl](https://github.com/JuliaGraphs/Graphs.jl)
