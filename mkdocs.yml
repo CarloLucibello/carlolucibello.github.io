@@ -26,22 +26,18 @@ theme:
   features:
     - navigation.instant
     - navigation.tracking
-    - navigation.tabs
-    - navigation.sections
-    - navigation.top
-    - search.suggest
-    - search.highlight
     - content.code.copy
+    - toc.integrate  # Integrate TOC into main content (no right sidebar)
   font:
     text: Helvetica
     code: Roboto Mono
 
-nav:
-  - Home: index.md
-  - Research: research.md
-  - Teaching: teaching.md
-  - Code: code.md
-  - Contacts: contacts.md
+# nav:
+  # - Home: index.md
+  # - Research: research.md
+  # - Teaching: teaching.md
+  # - Code: code.md
+  # - Contacts: contacts.md
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -72,7 +68,6 @@ extra_css:
   - stylesheets/extra.css
 
 plugins:
-  - search
   - tags
 
 extra:
