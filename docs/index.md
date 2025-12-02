@@ -64,7 +64,7 @@ Some projects that I used to mantain, but not anymore:
 ## Contacts
 
 Carlo Lucibello  
-Computing Sciences Department  
+Department of Computing Sciences  
 Bocconi University  
 Via Guglielmo Roentgen 1  
 20136 Milano (MI)  
