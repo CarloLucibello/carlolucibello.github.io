@@ -1,0 +1,96 @@
+/* Custom CSS for MkDocs Material theme */
+
+:root {
+  --md-text-font: "Helvetica";
+  --normal: 19px;
+}
+
+/* Base font size */
+.md-typeset {
+  font-size: var(--normal);
+}
+
+/* Make content wider without sidebars */
+.md-content {
+  max-width: 50rem;
+  margin: 0 auto 3rem auto;
+}
+
+/* Hide search if it appears */
+.md-search {
+  display: none;
+}
+
+/* Hide left sidebar/drawer */
+.md-sidebar--primary {
+  display: none;
+}
+
+/* Hide header/top bar */
+.md-header {
+  display: none;
+}
+
+/* Adjust main container to use full width without left sidebar and header */
+.md-container {
+  margin-left: 0;
+}
+
+.md-main__inner {
+  margin-left: 0;
+  margin-top: 0;
+}
+
+/* Give a bit of breathing room from the top */
+.md-main {
+  padding-top: 1.5rem;
+}
+
+/* Image styling */
+.md-content img {
+  border-radius: 10px;
+}
+
+/* Legacy float-right images (if any on other pages) */
+img[style*="float:right"] {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+/* Blockquote styling */
+.md-typeset blockquote {
+  border-left: 4px solid var(--md-primary-fg-color);
+  padding-left: 1rem;
+  font-style: italic;
+}
+
+/* Links styling */
+.md-typeset a {
+  color: var(--md-primary-fg-color);
+}
+
+.md-typeset a:hover {
+  text-decoration: underline;
+}
+
+/* Code blocks */
+.md-typeset code {
+  font-size: 0.85em;
+}
+
+/* Headers */
+.md-typeset h1 {
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.md-typeset h2 {
+  font-weight: 600;
+  margin-top: 0;          /* Remove top margin to align with image */
+  margin-bottom: 0.6em;
+}
+
+/* Horizontal rules as subtle section separators */
+.md-typeset hr {
+  margin: 2.5rem 0 1.5rem;
+}
