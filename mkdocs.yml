@@ -1,0 +1,85 @@
+site_name: Carlo Lucibello
+site_url: https://carlolucibello.github.io/
+site_author: Carlo Lucibello
+site_description: Personal webpage of Carlo Lucibello
+
+repo_url: https://github.com/CarloLucibello/carlolucibello.github.io
+repo_name: CarloLucibello/carlolucibello.github.io
+
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  font:
+    text: Helvetica
+    code: Roboto Mono
+
+nav:
+  - Home: index.md
+  - Research: research.md
+  - Teaching: teaching.md
+  - Code: code.md
+  - Contacts: contacts.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.arithmatex:
+      generic: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search
+  - tags
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/CarloLucibello
+    - icon: fontawesome/brands/google-scholar
+      link: https://scholar.google.it/citations?user=YOUR_SCHOLAR_ID
+
+copyright: Copyright &copy; 2025 Carlo Lucibello

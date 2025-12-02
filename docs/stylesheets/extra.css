@@ -1,0 +1,53 @@
+/* Custom CSS for MkDocs Material theme */
+
+:root {
+  --md-text-font: "Helvetica";
+  --normal: 19px;
+}
+
+/* Adjust font sizes */
+.md-typeset {
+  font-size: var(--normal);
+}
+
+/* Image styling */
+.md-content img {
+  border-radius: 10px;
+}
+
+/* Profile image styling */
+img[style*="float:right"] {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+/* Blockquote styling */
+.md-typeset blockquote {
+  border-left: 4px solid var(--md-primary-fg-color);
+  padding-left: 1rem;
+  font-style: italic;
+}
+
+/* Links styling */
+.md-typeset a {
+  color: var(--md-primary-fg-color);
+}
+
+.md-typeset a:hover {
+  text-decoration: underline;
+}
+
+/* Code blocks */
+.md-typeset code {
+  font-size: 0.85em;
+}
+
+/* Headers */
+.md-typeset h1 {
+  font-weight: 600;
+}
+
+.md-typeset h2 {
+  font-weight: 600;
+  margin-top: 2em;
+}

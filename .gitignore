@@ -1,6 +1,35 @@
+# MkDocs
+site/
+
+# Franklin.jl (legacy - can be removed after cleanup)
 __site/
-.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+*.egg-info/
+
+# Node
 node_modules/
 package-lock.json
+
+# IDEs
 .vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Julia (legacy)
 /Manifest.toml
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+
+#UV
+uv.lock
+.python-version
